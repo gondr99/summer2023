@@ -13,7 +13,7 @@ window.onload = ()=>{
         {name:"3D 게임 그래픽 기초(1학년)", file:"09.png", difficulty:"초급", teacher: "최용준", grade:[1], desc:"게임에서 사용하는 이미지의 이해와, 노말, 라이팅, PBR에 대한 이해"},
         {name:"3D 게임 그래픽 심화(2학년)", file:"10.png", difficulty:"중급", teacher: "김종엽", grade:[2], desc:"PBR텍스쳐, 서브스턴스 디자이너, 텍스쳐 제작 등을 학습"},
         
-        {name:"게임기획", file:"11.png", difficulty:"초,중급", teacher: "정직한", grade:[1, 2], desc:"게임기획의 기초지식 학습"},
+        {name:"게임 기획자가 알아야 할 게임그래픽스와 게임메커니즘의 이해", file:"11.png", difficulty:"초,중급", teacher: "정직한", grade:[1, 2], desc:"게임기획의 기초지식 학습"},
     ];
     const popup = document.querySelector("#popup");
     const image = document.querySelector("#descImg");
