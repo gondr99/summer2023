@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <header class="d-flex justify-content-center align-items-center">
+        <h2>하계 게임개발 캠프 학습과정 선택</h2>
+    </header>
+    <section class="caution d-flex justify-content-center">
+        <div class="message">
+            주의! 하계 캠프는 한가지만 들을 수 있습니다. <br>
+            학년 제한이 있는 수업은 해당 학년만 들을 수 있습니다.<br>
+            상급은 진짜 어려우니 각오를 다지고 신청하세요.<br>
+            온라인 수업이니만큼 집중해서 수업을 듣고 강사분들의 수업에 적극적으로 참여하세요.
+        </div>
+    </section>
+    <section class="content d-flex justify-content-center">
+        <div class="container" id="card_box">
+            <div class="card d-flex">
+                <div class="card-header">
+                    <h4>3D 그래픽 반[외부강사]</h4>
+                </div>
+                <div class="card-content">
+                    게임 그래픽 지망 학생들을 대상으로 하는 그래픽 방과후
+                </div>
+                <div class="card-footer">
+                    <button class="btn" data-file="01_graphic.png">상세보기</button>
+                </div>
+            </div>
+
+            <div class="card d-flex">
+                <div class="card-header">
+                    <h4>게임 알고리즘반</h4>
+                </div>
+                <div class="card-content">
+                    C++을 이용한 게임 알고리즘 풀이
+                </div>
+                <div class="card-footer">
+                    <button class="btn" data-file="02_algo.png">상세보기</button>
+                </div>
+            </div>
+
+            <div class="card d-flex">
+                <div class="card-header">
+                    <h4>Windows API를 활용한 C++ 2D게임개발</h4>
+                </div>
+                <div class="card-content">
+                    win32 API를 활용해 기초 게임을 만들고 게임 프레임워크까지 만들어보는 방과후
+                </div>
+                <div class="card-footer">
+                    <button class="btn" data-file="03_win32.png">상세보기</button>
+                </div>
+            </div>
+
+            <div class="card d-flex">
+                <div class="card-header">
+                    <h4>탑다운 슈팅게임 개발</h4>
+                </div>
+                <div class="card-content">
+                    유니티를 활용한 다양한 스킬을 배우고, 이를 통해 엔터더 건전 같은 류의 슈팅게임을 개발
+                </div>
+                <div class="card-footer">
+                    <button class="btn" data-file="04_topdown.png">상세보기</button>
+                </div>
+            </div>
+
+            <div class="card d-flex">
+                <div class="card-header">
+                    <h4>하이퍼 캐쥬얼 게임 개발반</h4>
+                </div>
+                <div class="card-content">
+                    유니티를 활용하여 하이퍼 캐쥬얼 게임을 개발하고 모바일 빌드 및 광고 추가과정까지 다룸
+                </div>
+                <div class="card-footer">
+                    <button class="btn" data-file="05_hyper.png">상세보기</button>
+                </div>
+            </div>
+
+            <div class="card d-flex">
+                <div class="card-header">
+                    <h4>게임기획반[외부강사]</h4>
+                </div>
+                <div class="card-content">
+                    게임기획 지망 학생들을 위한 방과후
+                </div>
+                <div class="card-footer">
+                    <button class="btn" data-file="06_plan.png">상세보기</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="popup">
+        <div class="inner">
+            <div class="image-container">
+                <img id="descImg" src="images/a.png" alt="이미지파일">
+            </div>
+            <div class="button-row">
+                <button class="btn" id="closeBtn">닫기</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

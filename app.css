@@ -1,0 +1,165 @@
+* {
+    margin:0; padding: 0;
+}
+.d-flex {
+    display: flex;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.align-items-center {
+    align-items: center;
+}
+header {
+    height:80px;
+}
+.caution 
+{
+    padding:20px;
+}
+.caution > .message 
+{
+    width:800px;
+    background-color: #dd2626;
+    color:#fff;
+    padding:0.25rem 0.75rem;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.container 
+{
+    width:800px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px;
+}
+.card {
+    width: 100%;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    border-radius: 0.5rem;
+    min-height:250px;
+}
+.card > .card-header 
+{
+    padding: 0.5rem 0.75rem;
+    flex-basis: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card > .card-header > h4 
+{
+    font-size:1.25rem;
+}
+.card > .card-content 
+{
+    padding:0.5rem 1.25rem;
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+.card .info-box
+{
+    display: flex;
+}
+.card .info-box > .difficulty 
+{
+    padding:0.25rem 0.5rem;
+    background-color: #e41717;
+    color:#fff;
+    border-radius: 0.25rem;
+    font-size:12px;
+}
+
+.card .info-box > .grade 
+{
+    display: flex;
+}
+
+.badge 
+{
+    margin-left:2px;
+    padding:0.25rem 0.5rem;
+    background-color: #007706;
+    color:#fff;
+    border-radius: 0.25rem;
+    font-size:10px;
+}
+.card > .card-footer 
+{
+    padding:0.5rem 1.25rem;
+    flex-basis: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn {
+    padding:0.25rem 0.75rem;
+    background-color: #2a2dd8;
+    color:#fff;
+    border:1px solid #2326d1;
+    border-radius: 0.25rem;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #4144e0;
+}
+
+#popup
+{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#popup .inner 
+{
+    background-color: #fff;
+    height:700px;
+    padding:0.25rem 0.75rem;
+    border-radius: 0.25rem;
+    transition: transform 0.5s 0.15s;
+    transform: translateY(-150%);
+}
+
+#popup.on 
+{
+    opacity: 1;
+    visibility: visible;
+}
+
+#popup.on > .inner 
+{
+    transform: translateY(0);
+}
+
+
+#popup .image-container
+{
+    height: 650px;
+    width: auto;
+}
+
+#popup .image-container > img 
+{
+    width: 100%;
+    height: 100%;
+}
+
+#popup .button-row 
+{
+    display:flex;
+    justify-content: flex-end;
+    padding:0.5rem 0.8rem;
+}
