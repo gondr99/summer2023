@@ -71,6 +71,16 @@ header {
     font-size:12px;
 }
 
+.card .info-box > .part
+{
+    padding:0.25rem 0.5rem;
+    background-color: #2b17e4;
+    color:#fff;
+    border-radius: 0.25rem;
+    font-size:12px;
+    margin-left:2px;
+}
+
 .card .info-box > .grade 
 {
     display: flex;
