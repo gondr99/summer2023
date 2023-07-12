@@ -97,7 +97,7 @@ window.onload = ()=>{
             difficulty:"중급", 
             teacher: "이상진", 
             grade:[2], 
-            desc:"아직 외부강사님 정보가 없습니다.",
+            desc:"유니티 게임 개발 관련 AI 작성법",
             part:1,
         },
         {
