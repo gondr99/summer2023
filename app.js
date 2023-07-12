@@ -65,12 +65,12 @@ window.onload = ()=>{
             part:1,
         },
         {
-            name:"유니티 심화반(외부강사)", 
-            file:"09_no.png", 
-            difficulty:"고급", 
+            name:"PlayCanvas를 활용한 AR 게임 개발", 
+            file:"09.png", 
+            difficulty:"중급", 
             teacher: "유준무", 
             grade:[2], 
-            desc:"아직 외부강사의 정보가 없습니다.",
+            desc:"Javascript 언어 기본 학습, WebXR을 활용한 AR게임 개발",
             part:1,
         },
         {
@@ -83,12 +83,12 @@ window.onload = ()=>{
             part:1,
         },
         {
-            name:"HTML5 웹 및 게임개발반", 
+            name:"C# 멀티쓰레드 서버를 활용한 멀티플레이어 게임 개발반", 
             file:"11.png", 
             difficulty:"중급", 
             teacher: "최선한", 
             grade:[2], 
-            desc:"Node.js, TypeScript, React를 이용한 웹앱 및 Phaser엔진을 활용한 웹게임 개발",
+            desc:"C# 멀티쓰레드를 활용하여 유니티 클라이언트와 소켓통신을 하는 게임 개발",
             part:1,
         },
         {
